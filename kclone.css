@@ -135,7 +135,7 @@ header {
      .buttoon-container {
     display: flex;
     flex-direction: row;
-    gap: 10px; /* Adjust the gap between buttons */
+    gap: 35px; /* Adjust the gap between buttons */
     margin-left: 15px;
   }
 
