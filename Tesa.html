@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logo Page</title>
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,600,700,800,900&amp;display=swap" rel="stylesheet preload prefetch preconnect"/><link href="https://fonts.googleapis.com/css?family=Mulish:400,600,700,800,900&amp;display=swap" rel="stylesheet preload prefetch preconnect"/>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            height: 100vh;
+            margin: 0;
+            font-family: muli;
+            background-color: #fff;
+        }
+        .logo {
+            max-width: 100px;
+            margin-top: 20px;
+        }
+        .middle-image {
+            max-width: 200px;
+            margin-top: auto;
+            margin-bottom: auto;
+        }
+          .heading {
+        
+            font-size: 24px;
+            color: #333;
+            
+          }
+        .buttons {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .button {
+            padding: 18px 30px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 280px;
+            text-align: center;
+        }
+        .button.open-account {
+                        background-color: #f4f4f4;
+            color: #40196d;
+                        border: 1px solid rgba(64,25,109,.3);
+            border-radius: 5px;
+            font-weight: bolder;
+            
+        }
+        .button.sign-in {
+          background-color: #f4f4f4;
+            color: #40196d;
+                        border: 1px solid rgba(64,25,109,.3);
+            border-radius: 5px;
+            font-weight: bolder;
+        }
+    </style>
+</head>
+<body>
+    <img src="images (37).png" alt="Logo" class="logo">
+    <img src="kuda.jpg" alt="Middle Image" class="middle-image">
+        <h1 class="heading">Money app for<br>        Africans.</h1>
+<div class="buttons">
+        <button class="button open-account" onclick="redirectTocreate()">Open a New Account</button>
+        <button class="button sign-in" onclick="redirectTokuda()">Already have an account? Sign in</button>
+    </div>
+    <br>
+    <br>
+    <script src="btn.js"></script>
+</body>
+</html>
