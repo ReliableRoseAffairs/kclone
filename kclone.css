@@ -228,7 +228,7 @@ header {
   }
   .button-container {
     display: flex;
-    gap: 1px;
+    gap: 2px;
     justify-content: space-around;
     margin-bottom: 20px; /* Adjust margin as needed */
   }
