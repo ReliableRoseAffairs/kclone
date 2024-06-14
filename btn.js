@@ -8,5 +8,5 @@ function redirectTokuda() {
 }
 function redirectTokclone() {
   // Redirect to the desired page
-  window.location.href = "kclone.html";
+  window.location.href = "kud.html";
 }
